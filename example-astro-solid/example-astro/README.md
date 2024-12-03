@@ -10,6 +10,12 @@ $ pnpm create astro@latest
 $ pnpm astro add solid
 ```
 
+## useage
+
+```html
+<Counter client:only="solid-js" />
+```
+
 ## Project Structure
 
 ```text
