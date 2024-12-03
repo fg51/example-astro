@@ -50,6 +50,19 @@ module.exports = {
 }
 ```
 
+## ark-ui, park-ui
+
+```sh
+$ pnpm install @ark-ui/solid
+$ pnpm install -D @ark-ui/panda-preset
+$ pnpm @park-ui/cli components add button
+$ pnpm @park-ui/cli components add slider  # if error occured.
+```
+
+```sh
+$ pnpm prepare
+```
+
 ## Project Structure
 
 ```text

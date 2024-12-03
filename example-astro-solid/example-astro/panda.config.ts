@@ -1,8 +1,16 @@
 import { defineConfig } from "@pandacss/dev";
+import { createPreset } from "@park-ui/panda-preset";
+import amber from "@park-ui/panda-preset/colors/amber";
+import sand from "@park-ui/panda-preset/colors/sand";
 
 export default defineConfig({
   // Whether to use css reset
   preflight: true,
+
+  presets: [
+    createPreset({ accentColor: amber, grayColor: sand, radius: "sm" }),
+  ],
+  jsxFramework: "solid",
 
   // Where to look for your css declarations
   include: [

@@ -5,6 +5,7 @@ import Layout from '../layouts/Layout.astro';
 import '../index.css';
 
 import Counter from '../components/Counter.tsx';
+import { MySlider } from '../components/Slider.tsx';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -12,5 +13,7 @@ import Counter from '../components/Counter.tsx';
 
 <Layout>
   <Counter client:only="solid-js" />
+  <!--<Slider client:only="solid-js"/> -->
+  <MySlider client:only="solid-js"/>
 	<Welcome />
 </Layout>
