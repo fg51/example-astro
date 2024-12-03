@@ -24,3 +24,7 @@ pnpm-debug.log*
 .idea/
 
 pnpm-lock.yaml
+
+## Panda
+styled-system
+styled-system-studio
