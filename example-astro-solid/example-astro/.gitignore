@@ -30,3 +30,5 @@ styled-system
 styled-system-studio
 
 src/index.css
+
+*storybook.log

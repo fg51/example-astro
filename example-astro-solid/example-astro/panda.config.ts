@@ -16,6 +16,7 @@ export default defineConfig({
   include: [
     "./src/**/*.{js,jsx,ts,tsx,astro}",
     "./pages/**/*.{js,jsx,ts,tsx,astro}",
+    "./stories/**/*.{js,jsx,ts,tsx}",
   ],
 
   // Files to exclude
